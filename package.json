@@ -1,0 +1,26 @@
+{
+  "name": "mock-change",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo skipping tests",
+    "test:data-workflows": "echo skipping argo tests",
+    "build": "tsc",
+    "format": "prettier --write \"tests/**/*.ts\"",
+    "lint": "eslint \"**/*.{js,ts}\"",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint"
+  },
+  "author": "",
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "tslib": "^2.1.0"
+  },
+  "devDependencies": {},
+  "files": [
+    "lib/**/*"
+  ]
+}
