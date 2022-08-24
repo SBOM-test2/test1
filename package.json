@@ -16,7 +16,6 @@
   },
   "author": "",
   "dependencies": {
-    "uuid": "^8.3.2",
     "tslib": "^2.1.0"
   },
   "devDependencies": {},
