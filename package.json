@@ -16,7 +16,7 @@
   },
   "author": "",
   "dependencies": {
-    "tslib": "^2.1.4"
+    "tslib": "^1.0.0"
   },
   "devDependencies": {},
   "files": [
